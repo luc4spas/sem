@@ -119,12 +119,12 @@ function App() {
           {/* Logo */}
           <div className="flex justify-between items-center mb-12">
             <img 
-              src="src/img/teen.png" 
+              src="/src/img/teen.png" 
               alt="Teen Extreme" 
               className="h-16 object-contain"
             />
             <img 
-              src="src/img/ignite.png" 
+              src="/src/img/ignite.png" 
               alt="Ignite" 
               className="h-16 object-contain"
             />
