@@ -51,6 +51,18 @@
   animation-delay: -1.5s;
 }
 
+.animate-float:nth-child(10) {
+  animation-delay: -3.5s;
+}
+
+.animate-float:nth-child(11) {
+  animation-delay: -5.5s;
+}
+
+.animate-float:nth-child(12) {
+  animation-delay: -2.8s;
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;

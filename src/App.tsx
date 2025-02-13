@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Flame, Calendar, MapPin, Wifi, ThumbsUp, Youtube, Star, Music2, Gamepad2, Camera, Heart, Coffee } from 'lucide-react';
+import { Flame, Calendar, MapPin, Wifi, ThumbsUp, Youtube, Star, Music2, Gamepad2, Camera, Heart, Coffee, Zap, Book, Palette } from 'lucide-react';
 import { supabase } from './lib/supabase';
 import toast, { Toaster } from 'react-hot-toast';
 
@@ -70,36 +70,45 @@ function App() {
       <Toaster position="top-right" />
       
       {/* Floating Icons */}
-      <FloatingIcon className="top-20 left-[10%] text-white/20">
-        <Wifi className="w-12 h-12" />
+      <FloatingIcon className="top-20 left-[10%] text-white">
+        <Wifi className="w-16 h-16" />
       </FloatingIcon>
-      <FloatingIcon className="top-40 right-[15%] text-white/20">
-        <ThumbsUp className="w-16 h-16" />
+      <FloatingIcon className="top-40 right-[15%] text-white">
+        <ThumbsUp className="w-20 h-20" />
       </FloatingIcon>
-      <FloatingIcon className="bottom-32 left-[20%] text-white/20">
-        <Youtube className="w-14 h-14" />
+      <FloatingIcon className="bottom-32 left-[20%] text-white">
+        <Youtube className="w-18 h-18" />
       </FloatingIcon>
-      <FloatingIcon className="top-1/4 left-[30%] text-white/20">
-        <Star className="w-10 h-10" />
+      <FloatingIcon className="top-1/4 left-[30%] text-white">
+        <Star className="w-14 h-14" />
       </FloatingIcon>
-      <FloatingIcon className="bottom-1/4 right-[25%] text-white/20">
-        <Music2 className="w-12 h-12" />
+      <FloatingIcon className="bottom-1/4 right-[25%] text-white">
+        <Music2 className="w-16 h-16" />
       </FloatingIcon>
-      <FloatingIcon className="top-1/3 right-[35%] text-white/20">
-        <Gamepad2 className="w-14 h-14" />
+      <FloatingIcon className="top-1/3 right-[35%] text-white">
+        <Gamepad2 className="w-18 h-18" />
       </FloatingIcon>
-      <FloatingIcon className="bottom-1/3 left-[35%] text-white/20">
-        <Camera className="w-12 h-12" />
+      <FloatingIcon className="bottom-1/3 left-[35%] text-white">
+        <Camera className="w-16 h-16" />
       </FloatingIcon>
-      <FloatingIcon className="top-2/3 right-[40%] text-white/20">
-        <Heart className="w-10 h-10" />
+      <FloatingIcon className="top-2/3 right-[40%] text-white">
+        <Heart className="w-14 h-14" />
       </FloatingIcon>
-      <FloatingIcon className="bottom-2/3 left-[40%] text-white/20">
-        <Coffee className="w-11 h-11" />
+      <FloatingIcon className="bottom-2/3 left-[40%] text-white">
+        <Coffee className="w-15 h-15" />
+      </FloatingIcon>
+      <FloatingIcon className="top-1/2 left-[15%] text-white">
+        <Zap className="w-17 h-17" />
+      </FloatingIcon>
+      <FloatingIcon className="bottom-1/2 right-[15%] text-white">
+        <Book className="w-16 h-16" />
+      </FloatingIcon>
+      <FloatingIcon className="top-3/4 left-[25%] text-white">
+        <Palette className="w-15 h-15" />
       </FloatingIcon>
 
       {/* Vertical Stripes */}
-      <div className="absolute inset-0 flex justify-center items-stretch pointer-events-none">
+      <div className="absolute inset-0 flex justify-center items-stretch pointer-events-none opacity-50">
         <div className="w-1/4 bg-[#00A99D] transform -skew-x-12" />
         <div className="w-1/4 bg-[#98C93C] transform -skew-x-12" />
         <div className="w-1/4 bg-[#F7941D] transform -skew-x-12" />
@@ -110,13 +119,13 @@ function App() {
           {/* Logo */}
           <div className="flex justify-between items-center mb-12">
             <img 
-              src="https://raw.githubusercontent.com/igrejabatista/igrejabatista.github.io/master/assets/img/logo.png" 
+              src="src/img/teen.png" 
               alt="Teen Extreme" 
               className="h-16 object-contain"
             />
             <img 
-              src="https://raw.githubusercontent.com/igrejabatista/igrejabatista.github.io/master/assets/img/ignite.png" 
-              alt="IG Nite" 
+              src="src/img/ignite.png" 
+              alt="Ignite" 
               className="h-16 object-contain"
             />
           </div>
@@ -138,7 +147,7 @@ function App() {
               </div>
               <div className="flex items-center gap-2 bg-black/20 px-4 py-2 rounded-full hover:bg-black/30 transition-colors duration-300">
                 <MapPin className="w-5 h-5" />
-                <span>Teen Extreme</span>
+                <span>Semeando Família</span>
               </div>
             </div>
           </div>
