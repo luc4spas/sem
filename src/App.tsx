@@ -110,13 +110,13 @@ function App() {
           {/* Logo */}
           <div className="flex justify-between items-center mb-12">
             <img 
-              src="src/img/teen.png" 
+              src="https://raw.githubusercontent.com/igrejabatista/igrejabatista.github.io/master/assets/img/logo.png" 
               alt="Teen Extreme" 
               className="h-16 object-contain"
             />
             <img 
-              src="src/img/ignite.png" 
-              alt="Ignite" 
+              src="https://raw.githubusercontent.com/igrejabatista/igrejabatista.github.io/master/assets/img/ignite.png" 
+              alt="IG Nite" 
               className="h-16 object-contain"
             />
           </div>
@@ -138,7 +138,7 @@ function App() {
               </div>
               <div className="flex items-center gap-2 bg-black/20 px-4 py-2 rounded-full hover:bg-black/30 transition-colors duration-300">
                 <MapPin className="w-5 h-5" />
-                <span>Semeando Família</span>
+                <span>Teen Extreme</span>
               </div>
             </div>
           </div>
